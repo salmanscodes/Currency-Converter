@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background-color: #fccd9d;
+    background-color: #ffe1a8;
     /* text-align: center; */
     display:flex;
     justify-content: center;
@@ -77,4 +77,27 @@ button{
     color: white;
     font-weight: bold;
     margin-top: 15px;;
+}
+
+@media screen and (max-width: 500px)  {
+    .exchange{
+        width:30vh;
+    }
+    .container{
+       width:30vh;
+    }
+
+.select-container select {
+  font-size:8x;
+  width: auto;
+}
+
+}
+
+@media screen and (max-width: 400px)  {
+    
+button{
+    height:4vh;
+    margin-top:5px;;
+}
 }
